@@ -1,0 +1,126 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the com.github.aharotias2.passger package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: com.github.aharotias2.passger\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-09-24 22:01+0900\n"
+"PO-Revision-Date: 2024-07-17 08:44+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#: src/PassGer.vala:45
+msgid "PassGer - A simple password generator"
+msgstr "PassGer — генератор паролей"
+
+#: src/PassGerWidget.vala:79
+msgid "Length: "
+msgstr "Длина: "
+
+#: src/PassGerWidget.vala:91
+msgid ""
+"You can specify the password length using the \n"
+"spin box on the left.\n"
+"You can also specify the type of characters \n"
+"used for each character in the password using \n"
+"the table below.\n"
+"You can select the type of characters from \n"
+"uppercase letters, lowercase letters, numbers, \n"
+"and punctuation characters.\n"
+"You can select or deselect all character types \n"
+"for that column by clicking the column header.\n"
+"Specify at least one type for each row."
+msgstr ""
+"Укажите длину пароля в окошке слева.\n"
+"Указажите тип символа используемого для каждого\n"
+"символа пароля с помощью таблицы ниже.\n"
+"Можно выбрать тип символов из заглавных букв,\n"
+"строчных букв, цифр, и знаков препинания.\n"
+"Можно выбрать или отменить выбор всех типов символов\n"
+"для этого столбца, щелкнув заголовок столбца."
+
+#: src/PassGerWidget.vala:169
+msgid "Generate!"
+msgstr "Генерировать!"
+
+#: src/PassGerWidget.vala:255
+msgid ""
+"There is not enough characters available.\n"
+"Please add available characters on the right panel.\n"
+"Or uncheck the “Do not use duplicated characters” checkbox."
+msgstr ""
+"Недостаточно доступных символов.\n"
+"Добавьте доступные символы на правой панели.\n"
+"Или снимите флажок “Не использовать повторяющиеся символы”."
+
+#: src/PassGerWidget.vala:263
+msgid ""
+"Setting is invalid. At least 1 Character should be selected on each type "
+"(upper, lower, digit, punct)"
+msgstr ""
+"Неверная настройка. Для каждого типа нужно выбрать не менее 1 "
+"символа(верхний, нижний, цифра, пункт)."
+
+#: src/PassGerWidget.vala:266
+msgid "At least 1 check should be checked on each rows."
+msgstr "В каждой строке должен быть установлен как минимум 1 флажок."
+
+#: src/PassGerConfigWidget.vala:46
+msgid "Character Setting"
+msgstr "Настройка символов"
+
+#: src/PassGerConfigWidget.vala:55
+msgid ""
+"Here you can specify the characters used to generate the password.\n"
+"The pressed characters are used to generate the password.\n"
+"On the contrary, the characters that are not pressed are not used for \n"
+"password generation.\n"
+"At least one character should be pressed on each category."
+msgstr ""
+"Здесь можно указать символы, используемые для генерации пароля.\n"
+"Для генерации пароля используются отмеченные символы.\n"
+"Не отмеченные символы не используются для генерации пароля.\n"
+"В каждой категории должен быть нажат хотя бы один символ."
+
+#: src/PassGerConfigWidget.vala:76
+msgid "Uppercase Letters"
+msgstr "Заглавные буквы"
+
+#: src/PassGerConfigWidget.vala:86
+msgid "Lowercase Letters"
+msgstr "Строчные буквы"
+
+#: src/PassGerConfigWidget.vala:95
+msgid "Digital characters"
+msgstr "Цифровые символы"
+
+#: src/PassGerConfigWidget.vala:104
+msgid "Punctuation Characters"
+msgstr "Знаки препинания"
+
+#: src/PassGerConfigWidget.vala:113
+msgid "Other Settings"
+msgstr "Другие настройки"
+
+#: src/PassGerConfigWidget.vala:117
+msgid "Do not use duplicated characters"
+msgstr "Не используйте повторяющиеся символы"
+
+#: src/PassGerMath.vala:10
+msgid "Failed to open random file. exit."
+msgstr "Не удалось открыть случайный файл. Выход."
+
+#: src/PassGerMath.vala:22
+#, c-format
+msgid "IOError: random_byte was failed (%s))"
+msgstr "IOError: ошибка случайного_байта (%s))"
