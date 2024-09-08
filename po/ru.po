@@ -42,10 +42,10 @@ msgid ""
 "Specify at least one type for each row."
 msgstr ""
 "Укажите длину пароля в окошке слева.\n"
-"Указажите тип символа используемого для каждого\n"
+"Укажите тип символа используемого для каждого\n"
 "символа пароля с помощью таблицы ниже.\n"
-"Можно выбрать тип символов из заглавных букв,\n"
-"строчных букв, цифр, и знаков препинания.\n"
+"Выбор из заглавных букв, строчных букв,\n"
+"цифр и знаков препинания.\n"
 "Можно выбрать или отменить выбор всех типов символов\n"
 "для этого столбца, щелкнув заголовок столбца."
 
@@ -68,8 +68,7 @@ msgid ""
 "Setting is invalid. At least 1 Character should be selected on each type "
 "(upper, lower, digit, punct)"
 msgstr ""
-"Неверная настройка. Для каждого типа нужно выбрать не менее 1 "
-"символа(верхний, нижний, цифра, пункт)."
+"Неверная настройка. Для каждого симврла нужно выбрать не менее одного типа."
 
 #: src/PassGerWidget.vala:266
 msgid "At least 1 check should be checked on each rows."
@@ -113,7 +112,7 @@ msgstr "Другие настройки"
 
 #: src/PassGerConfigWidget.vala:117
 msgid "Do not use duplicated characters"
-msgstr "Не используйте повторяющиеся символы"
+msgstr "Не использовать повторяющиеся символы"
 
 #: src/PassGerMath.vala:10
 msgid "Failed to open random file. exit."
